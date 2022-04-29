@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lombok Tengah BERSATU (Beriman, Sejahtera, Bermutu</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="icon" type="image/png" href="images/logo1.png">
+
+	<script src="js/bootstrap.js"></script>
+</head>
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+		      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+		        <img src="images/logo1.png" class="bi me-2" width="40" height="40">
+		        <span class="fs-4">Lombok Tengah</span>
+		      </a>
+
+		      <ul class="nav nav-pills">
+		        <li class="nav-item"><a href="#header" class="nav-link active" aria-current="page">Beranda</a></li>
+		        <li class="nav-item"><a href="#slide" class="nav-link">Tentang</a></li>
+		        <li class="nav-item"><a href="#layanan" class="nav-link">Layanan</a></li>
+		        <li class="nav-item"><a href="#formulir" class="nav-link">Pesan</a></li>
+		        <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+		      </ul>
+		    </div>
+		</div>
+	</header>
+
+	<section class="slide" id="slide">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="images/gambar2.jpg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/gambar3.jpg" class="d-block w-100" alt="...">
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<h2 class="judul">Lombok Tengah BERSATU (Beriman, Sejahtera, Bermutu</h2>
+					<div class="row">
+						<div class="col-md-6">
+							<p class="alamat">
+								<b>Alamat</b><br><br>
+								Jalan Raden Puguh, Kec. Praya, Kabupaten Lombok Tengah, NTB<br><br>
+								+6287852030834<br>
+								Email : loteng01@gmail.com<br>
+								Instagram : @loteng_bersatu<br>
+								Facebook : LombokTengah
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p>
+								<b>Info</b><br><br>
+								Situs ini adalah portal resmi dari Lombok Tengah. Terdapat informasi akurat tentang perkembangan Lombok Tengah dari seluruh daerah mulai dari segi pariwisata, layanan masyarakat, kesehatan, pendidikan dan kebudayaan.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- LAYANAN -->
+	<section class="layanan" id="layanan">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/clock.png" width="100%">
+						</div>
+						<div class="col-md-8">
+							<h4>Jadwal Buka</h4>
+							<p>07.00 - 17.00</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/home.png" width="100%">
+						</div>
+						<div class="col-md-8">
+							<h4>Lokasi</h4>
+							<p>Jalan Raden Puguh, Kec. Praya, Kabupaten Lombok Tengah, NTB.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="images/email.png" width="100%">
+						</div>
+						<div class="col-md-8">
+							<h4>Kontak</h4>
+							<p>+6287852030834<br>
+							Email : loteng01@gmail.com<br></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FORMULIR -->
+	<section class="formulir" id="formulir">
+		<div class="container">
+			<div class="row">
+				<h1>Silahkan masukkan pesan!</h1>
+				<div class="col-md-6">
+					<form method="POST" action="">
+						<div class="mb-3 row">
+						    <div class="col-sm-6">
+						      <input type="text" class="form-control" id="inputPassword" placeholder="Nama Lengkap" required>
+						    </div>
+						    <div class="col-sm-6">
+						      <input type="email" class="form-control" id="inputPassword" placeholder="Email" required>
+						    </div>
+						</div>
+						<div class="mb-3">
+							<input type="text" name="subjek" class="form-control" placeholder="Subjek" required>
+						</div>
+						<div class="mb-3">
+							<textarea class="form-control" placeholder="Pesan" required></textarea>
+						</div>
+						<div class="d-grid gap-2">
+							<input type="submit" name="kirim" value="Kirim" class="btn btn-primary">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<h2><i></i> Sebelum anda mengirim pesan, pastikan</h2>
+					<p>Pastikan bahwa anda sudah mengisi data diri dengan benar. Harus warga asli Lombok Tengah atau berdomisili di Lombok Tengah selama 3 tahun. Pesan yang disampaikan harus seputar Lombok Tengah.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- KONTAK -->
+	<section class="bottom" id="kontak">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<form method="POST" action="">
+						<div class="mb-3 row">
+							<div class="col-sm-8">
+							   	<input type="email" class="form-control" id="inputPassword" placeholder="Nama Lengkap" required>
+							</div>
+							<div class="col-sm-4">
+							    <input type="submit" name="berlangganan" class="btn btn-danger" value="Berlangganan" required>
+							</div>
+						</div>
+					</form>
+
+					<div class="row">
+						<div class="col-md-3">
+							<ul class="menu-biasa">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Support</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul class="menu-biasa">
+								<li><a href="#">Shop</a></li>
+								<li><a href="#">Portofolio</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Event</a></li>
+								<li><a href="#">Forum</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul class="menu-biasa">
+								<li><a href="#">Comporite</a></li>
+								<li><a href="#">Agency</a></li>
+								<li><a href="#">eCommerce</a></li>
+								<li><a href="#">Personal</a></li>
+								<li><a href="#">One Page</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<ul class="menu-biasa">
+								<li><a href="#">Restoran</a></li>
+								<li><a href="#">Wedding</a></li>
+								<li><a href="#">App</a></li>
+								<li><a href="#">Magazine</a></li>
+								<li><a href="#">Landing Page</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h3>Tentang Kami</h3>
+					<p>Lombok Tengah saat ini sedang menjadi sorotan seluruh dunia. karena adanya sirkuit motogp di kawasan Kuta Mandalika. kendati demikian, Lombok Tengah tetap mempertahankan kebudayaan dan tradisi leluhur yang ada</p>
+					<a href="#"><img src="images/facebook.png" class="sosmed" width="40px"></a>
+					<a href="#"><img src="images/instagram.png" class="sosmed" width="40px"></a>
+					<a href="#"><img src="images/twitter.png" class="sosmed" width="40px"></a>
+					<a href="#"><img src="images/youtube.png" class="sosmed" width="40px"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					Copyright &copy <b>Lombok Tengah BERSATU</b> 2022 All Rights Reserved oleh <b>Mia Aditia Putri</b><br>
+				</div>
+				<div class="col-md-6">
+					<a href="#">Home</a> | 
+					<a href="#">About Us</a> | 
+					<a href="#">Team</a> | 
+					<a href="#">Clients</a> | 
+					<a href="#">FAQs</a> | 
+					<a href="#">Contact</a> | 
+					<a href="#">Term of Use</a> | 
+					<a href="#">Privacy Policy</a> | 
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
