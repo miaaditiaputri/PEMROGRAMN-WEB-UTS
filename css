@@ -1,0 +1,49 @@
+header{
+	background-color: #eeeeee;
+	color: white;
+}
+
+.judul{
+	font-family: Times New Roman;
+}
+
+.slide{
+	padding: 80px 0 80px 0;
+}
+
+.layanan{
+	background-color: pink;
+	padding: 80px 0 80px 0;
+}
+
+.formulir{
+	background-color: white;
+	padding: 80px 0 80px 0;
+}
+
+.bottom{
+	background-color: pink;
+	padding: 80px 0 80px 0;
+}
+
+.footer{
+	background-color: pink;
+	padding: 40px 0 40px 0;
+}
+
+.menu-biasa{
+	padding: 0;
+}
+
+.menu-biasa li{
+	list-style: none;
+}
+
+.menu-biasa li a{
+	color: black;
+	text-decoration: none;
+}
+
+.sosmed{
+	margin: 0 5px;
+}
